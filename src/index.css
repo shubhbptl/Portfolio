@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+body {
+  margin-left: 3em;
+  margin-right: 3em;
+  background-color: hsl(0, 0%, 12%);
+}
+@media only screen and (max-width: 550px) {
+  body {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+}
+@theme {
+  --shadow-3xl: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+@theme {
+  --c: 80%;
+  --python: 60%;
+  --javascript: 70%;
+  --web: 75%;
+  --max: 90%;
+}
+
+@layer {
+  .clip-custom {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+}
