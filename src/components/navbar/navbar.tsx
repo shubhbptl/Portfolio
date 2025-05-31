@@ -9,7 +9,7 @@ const navbar = () => {
     { text: "Home", link: "Home" },
     { text: "About", link: "About" },
     { text: "Project", link: "Project" },
-    { text: "Contact", link: "/" },
+    { text: "Contact", link: "Contact" },
   ];
 
   return [
@@ -20,10 +20,18 @@ const navbar = () => {
         } font-poppins sticky bg-[#1E1E1E] z-10 top-0`}
       >
         <div className="flex justify-between items-center py-4 pl-4 pr-4 ">
-          <div className=" text-2xl font-bold uppercase text-white">
-            <p className="bg-gradient-to-br from-stone-500 via-[#FD6F00] to-yellow-600 bg-clip-text text-transparent hover:bg-gradient-to-r hover:cursor-pointer hover:from-slate-500 hover:to-slate-800 hover:bg-clip-text hover:text-transparent">
-              Shubh
-            </p>
+          <div className="font-bold uppercase text-white">
+            <Link
+              to="Home"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-65}
+            >
+              <p className="bg-gradient-to-br text-4xl from-stone-500 via-[#FD6F00] to-yellow-600 bg-clip-text text-transparent hover:bg-gradient-to-r hover:cursor-pointer hover:from-slate-500 hover:to-slate-800 hover:bg-clip-text hover:text-transparent">
+                Shubh
+              </p>
+            </Link>
           </div>
           <div className="hidden md:block">
             <ul className="flex gap-6 pl-15">
@@ -31,7 +39,7 @@ const navbar = () => {
                 return (
                   <li key={index}>
                     <Link
-                      className="inline-block py-1 px-3 text-white hover:font-semibold hover:text-[#FD6F00] cursor-pointer"
+                      className="inline-block py-1 px-3 font-poppins text-3xl text-white hover:font-semibold hover:text-[#FD6F00] cursor-pointer"
                       to={items.link}
                       spy={true}
                       smooth={true}
@@ -48,10 +56,14 @@ const navbar = () => {
               })}
             </ul>
           </div>
-          <div className="hidden md:block text-white">
-            <button className="bg-transparent border-2 rounded-3xl p-2 transition-all duration-300 ease-in hover:bg-[#FD6F00]">
-              Download CV
-            </button>
+          <div className="hidden md:block text-white ">
+            <a
+              href="https://drive.google.com/file/d/1NWbdAwfYfM6Bus5IGYofqGQRpbrgaUlC/view?usp=sharing"
+              target="_blank"
+              className="text-2xl bg-transparent border-2 rounded-3xl p-2 transition-all duration-300 ease-in hover:bg-[#FD6F00] cursor-pointer flex-nowrap"
+            >
+              DownloadCV
+            </a>
           </div>
           <button
             onClick={() => {

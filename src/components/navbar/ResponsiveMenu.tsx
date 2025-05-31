@@ -42,14 +42,14 @@ export const ResponsiveMenu = ({ open, setOpen }: openMenu) => {
                 );
               })}
               <a
-                href="www.google.com"
+                href="https://drive.google.com/file/d/1NWbdAwfYfM6Bus5IGYofqGQRpbrgaUlC/view?usp=sharing"
                 target="_blank"
                 onClick={() => {
                   setOpen(false);
                 }}
                 className="text-m font-poppins hover:text-[#FD6F00] hover:bg-[#d8c5a3] rounded-2xl p-5 w-full"
               >
-                Download CV
+                DownloadCV
               </a>
             </ul>
           </div>
