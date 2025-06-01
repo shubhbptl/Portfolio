@@ -8,11 +8,11 @@ import { projectsData } from "./data";
 
 const Project = () => {
   const [show, setShow] = useState(1);
-
   function handleShow(
     _event: React.MouseEvent<HTMLElement>,
     newShow: number | null
   ) {
+    console.log(_event);
     if (newShow !== null) {
       setShow(newShow);
     }
