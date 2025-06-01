@@ -23,7 +23,7 @@ const Intro = () => {
         {/* Right section: Image + Icons */}
         <div className="flex flex-col items-center space-y-4 mb-6 md:mb-0">
           <img
-            src="src/assets/intro.png"
+            src="/intro.png"
             alt="profile pic"
             className="w-80 rounded-full object-cover [clip-path:circle(60%_at_50%_40%)]"
           />

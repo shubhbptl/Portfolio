@@ -11,7 +11,7 @@ const about = () => {
   return (
     <div className="grid grid-cols-2 row-start-2 row-span-4 mb-21" id="About">
       <div className="col-start-1 col-end-1 row-end-4 self-start justify-self-center -mt-40">
-        <img src="src/assets/about.png" alt="Hi pic" className="w-80" />
+        <img src="/about.png" alt="Hi pic" className="w-80" />
       </div>
       <div className=" col-start-2 row-start-1 md:self-end lg:self-end text-start self-end  p-0 sm:pt-20 text-white">
         <p className="xl:text-4xl md:text-3xl font-bold font-poppins">
