@@ -58,7 +58,7 @@ const navbar = () => {
           </div>
           <div className="hidden md:block text-white ">
             <a
-              href="https://drive.google.com/file/d/1NWbdAwfYfM6Bus5IGYofqGQRpbrgaUlC/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Skjysbq-YfLV4iIs8X3jw8lNRauQ1zUT/view?usp=sharing"
               target="_blank"
               className="text-2xl bg-transparent border-2 rounded-3xl p-2 transition-all duration-300 ease-in hover:bg-[#FD6F00] cursor-pointer flex-nowrap"
             >

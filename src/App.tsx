@@ -1,4 +1,3 @@
-import "./App.css";
 import Navbar from "./components/navbar/navbar.tsx";
 import Intro from "./components/intro/intro.tsx";
 import About from "./components/about/about.tsx";
