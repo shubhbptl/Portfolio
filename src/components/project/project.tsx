@@ -91,11 +91,12 @@ const Project = () => {
         {projectsData.map((project) =>
           show === 1 || show === project.value ? (
             <Card
-              title={project.text}
-              image={project.img}
-              link={project.link}
-              lang={project.lang}
-              desc={project.desc}
+              title={project.text ?? ""}
+              image={project.img ?? ""}
+              git={project.git ?? ""}
+              link={project.link ?? ""}
+              lang={project.lang ?? ""}
+              desc={project.desc ?? ""}
             />
           ) : null
         )}

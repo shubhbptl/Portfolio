@@ -7,12 +7,13 @@ import Typography from "@mui/material/Typography";
 interface Display {
   title: string;
   image: string;
+  git: string;
   link: string;
   lang: string;
   desc: string;
 }
 
-const ProjectCard = ({ title, image, link, lang, desc }: Display) => {
+const ProjectCard = ({ title, image, git, link, lang, desc }: Display) => {
   return (
     <div className="pt-5 flex justify-center">
       <Card
@@ -79,6 +80,8 @@ const ProjectCard = ({ title, image, link, lang, desc }: Display) => {
           </Typography>
         </CardContent>
         <CardActions>
+          {
+            git ?
           <Button
             size="small"
             sx={{
@@ -87,12 +90,30 @@ const ProjectCard = ({ title, image, link, lang, desc }: Display) => {
               fontSize: 20,
             }}
             component="a"
-            href={link}
+            href={git}
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub
-          </Button>
+          </Button> : null
+          }
+          {
+            link ? <Button
+            size="small"
+            sx={{
+              color: "#d8c5a3",
+              "&:hover": { color: "#F5DEB3" },
+              fontSize: 20,
+            }}
+            component=
+            "a"
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Link
+          </Button> : null
+          }
         </CardActions>
       </Card>
     </div>

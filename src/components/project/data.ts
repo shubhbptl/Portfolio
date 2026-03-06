@@ -1,12 +1,22 @@
 // data.ts
 export const projectsData = [
 	{
+	  id: "Smart-Degree-Pathway",
+	  text: "Smart Degree Pathway",
+	  lang: "Next.js, TypeScript, Python, Tailwind CSS",
+	  img: "/projects/smart_degree_pathway.png",
+	  desc: "Smart UML Degree Pathway is a web application that streamlines the academic planning process. It allows students to visualize their degree progress, explore the course catalog with advanced filters, and determine exactly which courses they are eligible to take next based on their transcript history.",
+	  link: "https://smart-degree-pathway.vercel.app/login",
+	  git:"",
+	  value: 2,
+	},
+	{
 	  id: "3d-weather",
 	  text: "3D Weather",
 	  lang: "JavaScript, Blender",
 	  img: "/projects/3d_weather.png",
 	  desc: "A 3D visualization of weather patterns built with Blender and integrated into a JavaScript app. It shows dynamic 3D models based on real-time data.",
-	  link: "https://github.com/shubhbptl/3D-Weather",
+	  git: "https://github.com/shubhbptl/3D-Weather",
 	  value: 2,
 	},
 	{
@@ -15,7 +25,7 @@ export const projectsData = [
 	  lang: "Processing",
 	  img: "/projects/flappy_bird.png",
 	  desc: "A Flappy Birds clone created using Processing. Includes custom sprites, game logic, and sound effects.",
-	  link: "https://github.com/shubhbptl/Flappy_Birds",
+	  git: "https://github.com/shubhbptl/Flappy_Birds",
 	  value: 2,
 	},
 	{
@@ -24,7 +34,7 @@ export const projectsData = [
 	  lang: "Flask, Python, JavaScript, Gcode, HTML, CSS",
 	  img: "/projects/pen_plotter.jpeg",
 	  desc: "A Flask server to control a pen plotter. It converts SVG files to Gcode and sends commands to the plotter. Frontend built with HTML and JavaScript for real-time preview.",
-	  link: "https://github.com/shubhbptl/Pen_plotter_V2",
+	  git: "https://github.com/shubhbptl/Pen_plotter_V2",
 	  value: 3,
 	},
 	{
@@ -33,7 +43,7 @@ export const projectsData = [
 	  lang: "Python, PyGame",
 	  img: "/projects/algo_visual.png",
 	  desc: "A visualizer for various sorting algorithms using Python and PyGame. Includes Bubble Sort, Merge Sort, and Quick Sort with animated steps.",
-	  link: "https://github.com/shubhbptl/SoarCSProgram/tree/main/sort_visualizer",
+	  git: "https://github.com/shubhbptl/SoarCSProgram/tree/main/sort_visualizer",
 	  value: 3,
 	},
 	{
@@ -42,7 +52,7 @@ export const projectsData = [
 	  lang: "Python, CV2, Tkinter, PIL, PyGame",
 	  img: "/projects/py_phone.png",
 	  desc: "A Python-based phone emulator using computer vision and Tkinter. Simulates phone UI and basic functionalities.",
-	  link: "https://github.com/shubhbptl/SoarCS",
+	  git: "https://github.com/shubhbptl/SoarCS",
 	  value: 3,
 	},
 	{
@@ -51,7 +61,7 @@ export const projectsData = [
 	  lang: "C",
 	  img: "/projects/comp_science.png",
 	  desc: "C programs demonstrating data structures and algorithms: AVL trees, linked lists, and hash tables.",
-	  link: "https://github.com/shubhbptl/comp_science",
+	  git: "https://github.com/shubhbptl/comp_science",
 	  value: 4,
 	},
 	{
@@ -60,7 +70,7 @@ export const projectsData = [
 	  lang: "Vite, JavaScript, HTML, CSS",
 	  img: "/projects/blog_post.png",
 	  desc: "A blogging platform built with Vite. Supports creating, viewing, and deleting posts with a clean UI.",
-	  link: "https://github.com/shubhbptl/React-Blog-Post",
+	  git: "https://github.com/shubhbptl/React-Blog-Post",
 	  value: 5,
 	},
 	{
@@ -69,7 +79,7 @@ export const projectsData = [
 	  lang: "Vite, JavaScript, HTML, CSS",
 	  img: "/projects/todo_list.png",
 	  desc: "A responsive Todo List app with features like adding, deleting, and marking tasks as complete. Built with Vite for fast bundling.",
-	  link: "https://github.com/shubhbptl/React-Todo-List-Learning",
+	  git: "https://github.com/shubhbptl/React-Todo-List-Learning",
 	  value: 5,
 	},
   ];
