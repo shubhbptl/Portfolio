@@ -8,7 +8,7 @@ export const projectsData = [
 	  desc: "Smart UML Degree Pathway is a web application that streamlines the academic planning process. It allows students to visualize their degree progress, explore the course catalog with advanced filters, and determine exactly which courses they are eligible to take next based on their transcript history.",
 	  link: "https://smart-degree-pathway.vercel.app/login",
 	  git:"",
-	  value: 2,
+	  value: 3,
 	},
 	{
 	  id: "3d-weather",
