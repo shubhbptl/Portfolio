@@ -15,7 +15,7 @@ const Intro = () => {
           <p className="xl:text-6xl md:text-5xl font-bold">Computer</p>
           <p className="xl:text-6xl md:text-5xl font-bold indent-6">Science</p>
           <p className="xl:text-2xl md:text-xl font-light max-w-md">
-            Sophomore at UMass Lowell | Medford High School Vocational Grad |
+            Junior at UMass Lowell | Medford High School Vocational Grad |
             Eager to Launch My Tech Career.
           </p>
         </div>
